@@ -5,7 +5,31 @@
 
 }
 
-.header__logo {
+.header__logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+
+}
+
+.menu__list{
     display: flex;
     align-items: center;
+    padding-left: 700px;
+    gap:50px;
 }
+
+.menu__link{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color:#9199B2;
+}
+
+.menu__avatar{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
