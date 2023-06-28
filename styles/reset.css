@@ -47,4 +47,5 @@ body{
     max-width: 1290px;
     box-sizing: content-box;
     margin: 0 auto;
+    padding: 0 15px;
 }
